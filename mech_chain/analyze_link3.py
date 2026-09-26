@@ -37,6 +37,25 @@ def main():
 
     d_amp = np.array(d_amp)
     d_sign = np.array(d_sign)
+
+    # NaN check FIRST: a non-finite trajectory is a stability failure, not data.
+    # The preregistered amplitude comparison is undefined on NaN runs, and
+    # NaN <= 0.02 evaluates False -- it must never silently select a verdict.
+    n_nan = int(np.isnan(d_amp).sum())
+    if n_nan > 0:
+        print(f"n seeds: {len(SEEDS)}")
+        print(f"STABILITY FAILURE: {n_nan}/{len(SEEDS)} C-branch runs went "
+              f"non-finite (NaN).")
+        print("The preregistered amplitude comparison is UNDEFINED on these "
+              "runs; no threshold rule fires.")
+        print("Post-hoc observation only: removing the anti-windup bound "
+              "produces finite-time runaway under this feedback coupling, so "
+              "the bound is load-bearing for stability within this "
+              "architecture. The distinctness question (can a stabilized "
+              "ordinary IV reproduce the amplitude effect?) is NOT answered "
+              "by this link.")
+        return
+
     rng = np.random.default_rng(BOOT_SEED)
     boots = np.array([rng.choice(d_amp, size=len(d_amp), replace=True).mean()
                       for _ in range(N_BOOT)])
