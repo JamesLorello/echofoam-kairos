@@ -53,7 +53,8 @@ def main():
           f"95% CI=[{lo:.4f},{hi:.4f}]")
     print(f"D_sign per-seed: min={d_sign.min():.3f} max={d_sign.max():.3f} "
           f"n_zero={(d_sign == 0).sum()}")
-    print(f"H0 (mean D_sign <= 0.05): {'HOLDS' if hi <= 0.05 else 'REJECTED'}")
+    print(f"H0 (mean D_sign <= 0.05): "
+          f"{'within margin (upper CI <= 0.05)' if hi <= 0.05 else 'NOT established: upper CI exceeds 0.05 -- no reliable selection advantage, equivalence not shown'}")
     print(f"DeltaD late-window: mean={d_amp.mean():.4f} max={d_amp.max():.4f} "
           f"(margin 0.02: {'within' if d_amp.mean() <= 0.02 else 'EXCEEDED'})")
     print(f"walls at t_end: A={np.array(walls_a, dtype=int)} "
