@@ -1,0 +1,458 @@
+model sha256: 9f6903c7b51545ee5d66813b84e597cf0b18f9a99f7b6d68463c7a5f419791d0
+===== C seed=100 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2108 walls=129 E=49.4584 <|chi|>=3.56e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1030 walls=101 E=18.2583 <|chi|>=2.04e-02
+step  30000 t= 30.0 <|Psi|>=0.3483 walls=0 E=6.6832 <|chi|>=1.20e-01
+step  40000 t= 40.0 <|Psi|>=14.5320 walls=0 E=-226.5912 <|chi|>=8.47e+01
+step  50000 t= 50.0 <|Psi|>=879.2923 walls=0 E=-3886685985.9325 <|chi|>=3.09e+05
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:129: RuntimeWarning: overflow encountered in square
+  base = 0.5 * p.C * psi**2
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:105: RuntimeWarning: overflow encountered in power
+  - 2 * p.D * psi**3 + p.C * chi * psi
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:104: RuntimeWarning: invalid value encountered in add
+  a_cons = (p.B * laplacian(psi, dx) + m2 * psi
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed100_output.npz
+===== C seed=101 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2061 walls=111 E=39.6543 <|chi|>=3.59e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0952 walls=98 E=14.6480 <|chi|>=1.97e-02
+step  30000 t= 30.0 <|Psi|>=0.1634 walls=4 E=5.3752 <|chi|>=2.05e-02
+step  40000 t= 40.0 <|Psi|>=1.1528 walls=0 E=1.9244 <|chi|>=6.61e-01
+step  50000 t= 50.0 <|Psi|>=53.8212 walls=0 E=-57873.2047 <|chi|>=1.16e+03
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:56: RuntimeWarning: invalid value encountered in subtract
+  return (np.roll(f, 1) - 2 * f + np.roll(f, -1)) / dx**2
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:56: RuntimeWarning: invalid value encountered in add
+  return (np.roll(f, 1) - 2 * f + np.roll(f, -1)) / dx**2
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:131: RuntimeWarning: invalid value encountered in multiply
+  + p.D_tau * laplacian(tau_s, dx)) * bound
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:106: RuntimeWarning: invalid value encountered in multiply
+  - p.g_phi * phi * psi) / p.A
+/home/hatch/workspace/echofoam/mech_chain/vcf1_1_fork.py:105: RuntimeWarning: overflow encountered in multiply
+  - 2 * p.D * psi**3 + p.C * chi * psi
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed101_output.npz
+===== C seed=102 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1948 walls=131 E=38.6883 <|chi|>=3.65e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1149 walls=68 E=14.3253 <|chi|>=9.36e-03
+step  30000 t= 30.0 <|Psi|>=0.4086 walls=0 E=5.2569 <|chi|>=1.03e-01
+step  40000 t= 40.0 <|Psi|>=9.2847 walls=0 E=-63.9717 <|chi|>=3.46e+01
+step  50000 t= 50.0 <|Psi|>=542.6449 walls=0 E=-567294269.0186 <|chi|>=1.18e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed102_output.npz
+===== C seed=103 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2007 walls=117 E=37.3973 <|chi|>=3.43e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1002 walls=101 E=13.8328 <|chi|>=1.46e-02
+step  30000 t= 30.0 <|Psi|>=0.3532 walls=0 E=5.0721 <|chi|>=1.21e-01
+step  40000 t= 40.0 <|Psi|>=14.8556 walls=0 E=-249.2252 <|chi|>=8.84e+01
+step  50000 t= 50.0 <|Psi|>=898.6966 walls=0 E=-4233981405.2056 <|chi|>=3.23e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed103_output.npz
+===== C seed=104 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2114 walls=130 E=43.3490 <|chi|>=3.74e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1165 walls=94 E=16.0192 <|chi|>=1.45e-02
+step  30000 t= 30.0 <|Psi|>=0.3527 walls=0 E=5.8815 <|chi|>=8.02e-02
+step  40000 t= 40.0 <|Psi|>=6.7671 walls=0 E=-18.4339 <|chi|>=1.85e+01
+step  50000 t= 50.0 <|Psi|>=392.2698 walls=0 E=-155263041.8747 <|chi|>=6.16e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed104_output.npz
+===== C seed=105 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1940 walls=131 E=42.2065 <|chi|>=3.74e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0883 walls=132 E=15.6171 <|chi|>=1.41e-02
+step  30000 t= 30.0 <|Psi|>=0.1054 walls=28 E=5.7371 <|chi|>=2.21e-02
+step  40000 t= 40.0 <|Psi|>=1.0028 walls=0 E=2.1028 <|chi|>=5.94e-01
+step  50000 t= 50.0 <|Psi|>=63.6995 walls=0 E=-101904.9249 <|chi|>=1.62e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed105_output.npz
+===== C seed=106 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1928 walls=144 E=43.8802 <|chi|>=3.60e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0959 walls=135 E=16.2187 <|chi|>=9.02e-03
+step  30000 t= 30.0 <|Psi|>=0.1875 walls=2 E=5.9534 <|chi|>=2.13e-02
+step  40000 t= 40.0 <|Psi|>=1.5746 walls=0 E=2.0543 <|chi|>=1.13e+00
+step  50000 t= 50.0 <|Psi|>=79.4085 walls=0 E=-269161.3677 <|chi|>=2.52e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed106_output.npz
+===== C seed=107 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1774 walls=118 E=30.2289 <|chi|>=3.59e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0784 walls=118 E=11.1762 <|chi|>=1.24e-02
+step  30000 t= 30.0 <|Psi|>=0.0473 walls=114 E=4.0962 <|chi|>=1.18e-02
+step  40000 t= 40.0 <|Psi|>=0.0318 walls=101 E=1.5089 <|chi|>=7.43e-03
+step  50000 t= 50.0 <|Psi|>=0.0840 walls=0 E=0.5545 <|chi|>=4.75e-03
+step  60000 t= 60.0 <|Psi|>=0.4127 walls=0 E=0.2016 <|chi|>=9.83e-02
+step  70000 t= 70.0 <|Psi|>=9.3525 walls=0 E=-67.6790 <|chi|>=3.52e+01
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed107_output.npz
+===== C seed=108 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1881 walls=121 E=35.7693 <|chi|>=4.49e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0862 walls=121 E=13.2087 <|chi|>=1.10e-02
+step  30000 t= 30.0 <|Psi|>=0.1343 walls=10 E=4.8564 <|chi|>=1.33e-02
+step  40000 t= 40.0 <|Psi|>=0.7896 walls=0 E=1.7674 <|chi|>=3.45e-01
+step  50000 t= 50.0 <|Psi|>=31.2898 walls=0 E=-6885.3728 <|chi|>=3.92e+02
+step  60000 t= 60.0 <|Psi|>=1858.2331 walls=0 E=-77684960805.6115 <|chi|>=1.38e+06
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed108_output.npz
+===== C seed=109 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1819 walls=133 E=37.8577 <|chi|>=3.42e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0895 walls=106 E=13.9723 <|chi|>=9.72e-03
+step  30000 t= 30.0 <|Psi|>=0.1898 walls=0 E=5.1437 <|chi|>=4.71e-02
+step  40000 t= 40.0 <|Psi|>=4.3367 walls=0 E=0.9953 <|chi|>=7.74e+00
+step  50000 t= 50.0 <|Psi|>=269.3920 walls=0 E=-33851930.2629 <|chi|>=2.90e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed109_output.npz
+===== C seed=110 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2049 walls=128 E=43.2631 <|chi|>=3.59e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1059 walls=96 E=15.9799 <|chi|>=1.30e-02
+step  30000 t= 30.0 <|Psi|>=0.3013 walls=0 E=5.8743 <|chi|>=5.79e-02
+step  40000 t= 40.0 <|Psi|>=4.7219 walls=0 E=-3.4576 <|chi|>=9.08e+00
+step  50000 t= 50.0 <|Psi|>=269.2789 walls=0 E=-34606960.8569 <|chi|>=2.90e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed110_output.npz
+===== C seed=111 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2075 walls=127 E=39.1570 <|chi|>=3.64e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1315 walls=66 E=14.4506 <|chi|>=2.62e-02
+step  30000 t= 30.0 <|Psi|>=1.2105 walls=0 E=5.2998 <|chi|>=8.06e-01
+step  40000 t= 40.0 <|Psi|>=78.0521 walls=0 E=-233559.5942 <|chi|>=2.44e+03
+step  50000 t= 50.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed111_output.npz
+===== C seed=112 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1962 walls=128 E=38.6297 <|chi|>=3.33e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1062 walls=114 E=14.2979 <|chi|>=1.42e-02
+step  30000 t= 30.0 <|Psi|>=0.3683 walls=0 E=5.2325 <|chi|>=1.30e-01
+step  40000 t= 40.0 <|Psi|>=15.9674 walls=0 E=-339.1733 <|chi|>=1.02e+02
+step  50000 t= 50.0 <|Psi|>=965.4836 walls=0 E=-5635609330.4665 <|chi|>=3.73e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed112_output.npz
+===== C seed=113 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1950 walls=123 E=39.2122 <|chi|>=3.79e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0912 walls=122 E=14.5094 <|chi|>=1.08e-02
+step  30000 t= 30.0 <|Psi|>=0.1269 walls=14 E=5.3157 <|chi|>=1.19e-02
+step  40000 t= 40.0 <|Psi|>=0.7127 walls=0 E=1.9494 <|chi|>=2.90e-01
+step  50000 t= 50.0 <|Psi|>=26.5932 walls=0 E=-3653.0813 <|chi|>=2.83e+02
+step  60000 t= 60.0 <|Psi|>=1577.5058 walls=0 E=-40359393367.4306 <|chi|>=9.95e+05
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed113_output.npz
+===== C seed=114 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2107 walls=144 E=46.3674 <|chi|>=3.48e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1193 walls=84 E=17.1261 <|chi|>=1.06e-02
+step  30000 t= 30.0 <|Psi|>=0.4042 walls=0 E=6.2795 <|chi|>=1.04e-01
+step  40000 t= 40.0 <|Psi|>=9.1262 walls=0 E=-59.4631 <|chi|>=3.35e+01
+step  50000 t= 50.0 <|Psi|>=533.0901 walls=0 E=-528441313.7417 <|chi|>=1.14e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed114_output.npz
+===== C seed=115 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1961 walls=142 E=39.2464 <|chi|>=3.83e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0868 walls=116 E=14.5352 <|chi|>=2.11e-02
+step  30000 t= 30.0 <|Psi|>=0.1128 walls=20 E=5.3159 <|chi|>=2.47e-02
+step  40000 t= 40.0 <|Psi|>=1.2740 walls=0 E=1.9573 <|chi|>=8.63e-01
+step  50000 t= 50.0 <|Psi|>=82.0442 walls=0 E=-284876.7432 <|chi|>=2.70e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed115_output.npz
+===== C seed=116 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2056 walls=138 E=46.9824 <|chi|>=3.25e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1084 walls=108 E=17.4105 <|chi|>=1.39e-02
+step  30000 t= 30.0 <|Psi|>=0.2556 walls=0 E=6.3655 <|chi|>=4.09e-02
+step  40000 t= 40.0 <|Psi|>=3.2105 walls=0 E=0.8631 <|chi|>=4.28e+00
+step  50000 t= 50.0 <|Psi|>=178.6021 walls=0 E=-6737889.5404 <|chi|>=1.28e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed116_output.npz
+===== C seed=117 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1971 walls=116 E=41.3963 <|chi|>=3.43e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0871 walls=125 E=15.2774 <|chi|>=1.43e-02
+step  30000 t= 30.0 <|Psi|>=0.0554 walls=104 E=5.6267 <|chi|>=1.55e-02
+step  40000 t= 40.0 <|Psi|>=0.1488 walls=0 E=2.0575 <|chi|>=3.39e-02
+step  50000 t= 50.0 <|Psi|>=2.5654 walls=0 E=0.7254 <|chi|>=2.79e+00
+step  60000 t= 60.0 <|Psi|>=160.8978 walls=0 E=-4271911.5716 <|chi|>=1.04e+04
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed117_output.npz
+===== C seed=118 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1921 walls=147 E=41.9030 <|chi|>=4.03e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0911 walls=118 E=15.4855 <|chi|>=1.43e-02
+step  30000 t= 30.0 <|Psi|>=0.0858 walls=48 E=5.6935 <|chi|>=1.89e-02
+step  40000 t= 40.0 <|Psi|>=0.6288 walls=0 E=2.0913 <|chi|>=2.89e-01
+step  50000 t= 50.0 <|Psi|>=36.1078 walls=0 E=-10093.4153 <|chi|>=5.22e+02
+step  60000 t= 60.0 <|Psi|>=2169.2797 walls=0 E=-143924713972.1407 <|chi|>=1.88e+06
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed118_output.npz
+===== C seed=119 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2065 walls=116 E=39.7885 <|chi|>=3.48e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0894 walls=130 E=14.6723 <|chi|>=1.12e-02
+step  30000 t= 30.0 <|Psi|>=0.0675 walls=82 E=5.3892 <|chi|>=9.64e-03
+step  40000 t= 40.0 <|Psi|>=0.2300 walls=0 E=1.9807 <|chi|>=3.63e-02
+step  50000 t= 50.0 <|Psi|>=2.5663 walls=0 E=0.0439 <|chi|>=2.78e+00
+step  60000 t= 60.0 <|Psi|>=139.4370 walls=0 E=-2515672.9462 <|chi|>=7.78e+03
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed119_output.npz
+===== C seed=120 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1978 walls=125 E=39.7830 <|chi|>=3.52e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0877 walls=123 E=14.7136 <|chi|>=9.51e-03
+step  30000 t= 30.0 <|Psi|>=0.0575 walls=127 E=5.3967 <|chi|>=1.08e-02
+step  40000 t= 40.0 <|Psi|>=0.0836 walls=12 E=1.9795 <|chi|>=1.01e-02
+step  50000 t= 50.0 <|Psi|>=0.4027 walls=0 E=0.7254 <|chi|>=9.86e-02
+step  60000 t= 60.0 <|Psi|>=8.9683 walls=0 E=-57.7174 <|chi|>=3.24e+01
+step  70000 t= 70.0 <|Psi|>=523.8616 walls=0 E=-492843725.8536 <|chi|>=1.10e+05
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed120_output.npz
+===== C seed=121 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2157 walls=128 E=43.5111 <|chi|>=3.37e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1026 walls=105 E=16.0741 <|chi|>=1.58e-02
+step  30000 t= 30.0 <|Psi|>=0.1678 walls=8 E=5.9007 <|chi|>=1.80e-02
+step  40000 t= 40.0 <|Psi|>=1.2221 walls=0 E=2.1113 <|chi|>=7.31e-01
+step  50000 t= 50.0 <|Psi|>=58.0681 walls=0 E=-78078.7175 <|chi|>=1.35e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed121_output.npz
+===== C seed=122 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2094 walls=111 E=43.1230 <|chi|>=3.87e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0920 walls=117 E=15.9485 <|chi|>=1.85e-02
+step  30000 t= 30.0 <|Psi|>=0.0580 walls=123 E=5.8467 <|chi|>=2.40e-02
+step  40000 t= 40.0 <|Psi|>=0.0328 walls=123 E=2.1455 <|chi|>=1.73e-02
+step  50000 t= 50.0 <|Psi|>=0.0257 walls=101 E=0.7914 <|chi|>=8.07e-03
+step  60000 t= 60.0 <|Psi|>=0.0837 walls=0 E=0.2910 <|chi|>=2.69e-03
+step  70000 t= 70.0 <|Psi|>=0.4100 walls=0 E=0.1046 <|chi|>=9.49e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed122_output.npz
+===== C seed=123 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2147 walls=135 E=46.8835 <|chi|>=3.40e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0955 walls=128 E=17.2887 <|chi|>=1.46e-02
+step  30000 t= 30.0 <|Psi|>=0.0656 walls=107 E=6.3725 <|chi|>=1.68e-02
+step  40000 t= 40.0 <|Psi|>=0.2067 walls=0 E=2.3363 <|chi|>=5.39e-02
+step  50000 t= 50.0 <|Psi|>=5.2962 walls=0 E=-1.5427 <|chi|>=1.14e+01
+step  60000 t= 60.0 <|Psi|>=326.1172 walls=0 E=-72916799.3408 <|chi|>=4.25e+04
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed123_output.npz
+===== C seed=124 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1836 walls=121 E=33.0656 <|chi|>=3.64e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0934 walls=125 E=12.2239 <|chi|>=1.40e-02
+step  30000 t= 30.0 <|Psi|>=0.2342 walls=0 E=4.4969 <|chi|>=6.40e-02
+step  40000 t= 40.0 <|Psi|>=6.8077 walls=0 E=-6.4114 <|chi|>=1.88e+01
+step  50000 t= 50.0 <|Psi|>=417.5193 walls=0 E=-196689080.2234 <|chi|>=6.98e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed124_output.npz
+===== C seed=125 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1992 walls=116 E=41.8751 <|chi|>=3.59e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1096 walls=88 E=15.4565 <|chi|>=1.81e-02
+step  30000 t= 30.0 <|Psi|>=0.3484 walls=0 E=5.6798 <|chi|>=7.60e-02
+step  40000 t= 40.0 <|Psi|>=6.5450 walls=0 E=-16.1344 <|chi|>=1.73e+01
+step  50000 t= 50.0 <|Psi|>=378.8394 walls=0 E=-135106576.8957 <|chi|>=5.74e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed125_output.npz
+===== C seed=126 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1987 walls=128 E=39.3925 <|chi|>=4.03e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0949 walls=126 E=14.5683 <|chi|>=1.34e-02
+step  30000 t= 30.0 <|Psi|>=0.1677 walls=2 E=5.3445 <|chi|>=4.02e-02
+step  40000 t= 40.0 <|Psi|>=3.3275 walls=0 E=1.7690 <|chi|>=4.60e+00
+step  50000 t= 50.0 <|Psi|>=207.6306 walls=0 E=-11904275.3425 <|chi|>=1.72e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed126_output.npz
+===== C seed=127 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1894 walls=131 E=40.7013 <|chi|>=4.50e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0932 walls=112 E=15.0653 <|chi|>=1.83e-02
+step  30000 t= 30.0 <|Psi|>=0.3599 walls=0 E=5.5236 <|chi|>=1.24e-01
+step  40000 t= 40.0 <|Psi|>=15.3454 walls=0 E=-286.6399 <|chi|>=9.44e+01
+step  50000 t= 50.0 <|Psi|>=928.1802 walls=0 E=-4821329442.8476 <|chi|>=3.45e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed127_output.npz
+===== C seed=128 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2168 walls=119 E=51.3669 <|chi|>=3.52e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0969 walls=115 E=19.0190 <|chi|>=1.83e-02
+step  30000 t= 30.0 <|Psi|>=0.0634 walls=114 E=6.9685 <|chi|>=1.83e-02
+step  40000 t= 40.0 <|Psi|>=0.1132 walls=2 E=2.5571 <|chi|>=1.33e-02
+step  50000 t= 50.0 <|Psi|>=0.6233 walls=0 E=0.9329 <|chi|>=2.22e-01
+step  60000 t= 60.0 <|Psi|>=20.9657 walls=0 E=-1454.1406 <|chi|>=1.76e+02
+step  70000 t= 70.0 <|Psi|>=1241.2008 walls=0 E=-15477701168.8113 <|chi|>=6.16e+05
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed128_output.npz
+===== C seed=129 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1998 walls=132 E=43.3139 <|chi|>=3.58e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0911 walls=119 E=16.0078 <|chi|>=1.29e-02
+step  30000 t= 30.0 <|Psi|>=0.1217 walls=26 E=5.8991 <|chi|>=2.61e-02
+step  40000 t= 40.0 <|Psi|>=1.4736 walls=0 E=2.1558 <|chi|>=1.09e+00
+step  50000 t= 50.0 <|Psi|>=94.8002 walls=0 E=-508068.0887 <|chi|>=3.60e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed129_output.npz
+===== C seed=130 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2036 walls=129 E=43.2947 <|chi|>=3.45e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1105 walls=106 E=16.0141 <|chi|>=1.74e-02
+step  30000 t= 30.0 <|Psi|>=0.5432 walls=0 E=5.8836 <|chi|>=2.37e-01
+step  40000 t= 40.0 <|Psi|>=29.5608 walls=0 E=-4437.0592 <|chi|>=3.50e+02
+step  50000 t= 50.0 <|Psi|>=1777.9100 walls=0 E=-64917318403.6712 <|chi|>=1.26e+06
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed130_output.npz
+===== C seed=131 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1945 walls=129 E=37.7891 <|chi|>=3.31e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0918 walls=110 E=13.9584 <|chi|>=1.35e-02
+step  30000 t= 30.0 <|Psi|>=0.2030 walls=0 E=5.1160 <|chi|>=2.46e-02
+step  40000 t= 40.0 <|Psi|>=1.8858 walls=0 E=1.6351 <|chi|>=1.56e+00
+step  50000 t= 50.0 <|Psi|>=98.0804 walls=0 E=-621749.7460 <|chi|>=3.85e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed131_output.npz
+===== C seed=132 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2037 walls=116 E=41.9446 <|chi|>=3.33e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1286 walls=64 E=15.5362 <|chi|>=2.11e-02
+step  30000 t= 30.0 <|Psi|>=1.1409 walls=0 E=5.6976 <|chi|>=7.36e-01
+step  40000 t= 40.0 <|Psi|>=73.3796 walls=0 E=-181145.6352 <|chi|>=2.16e+03
+step  50000 t= 50.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed132_output.npz
+===== C seed=133 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1964 walls=130 E=39.3464 <|chi|>=3.36e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0906 walls=105 E=14.5648 <|chi|>=1.09e-02
+step  30000 t= 30.0 <|Psi|>=0.1513 walls=10 E=5.3357 <|chi|>=1.35e-02
+step  40000 t= 40.0 <|Psi|>=0.9926 walls=0 E=1.9287 <|chi|>=5.12e-01
+step  50000 t= 50.0 <|Psi|>=43.9266 walls=0 E=-26007.5415 <|chi|>=7.72e+02
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed133_output.npz
+===== C seed=134 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1975 walls=126 E=41.9426 <|chi|>=3.36e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0929 walls=109 E=15.5219 <|chi|>=1.07e-02
+step  30000 t= 30.0 <|Psi|>=0.1789 walls=2 E=5.6843 <|chi|>=1.88e-02
+step  40000 t= 40.0 <|Psi|>=1.4196 walls=0 E=1.9873 <|chi|>=9.44e-01
+step  50000 t= 50.0 <|Psi|>=70.0822 walls=0 E=-164144.4593 <|chi|>=1.96e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed134_output.npz
+===== C seed=135 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2066 walls=126 E=41.3322 <|chi|>=3.61e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.1060 walls=98 E=15.2723 <|chi|>=1.11e-02
+step  30000 t= 30.0 <|Psi|>=0.3512 walls=0 E=5.6206 <|chi|>=1.21e-01
+step  40000 t= 40.0 <|Psi|>=14.6951 walls=0 E=-237.1828 <|chi|>=8.65e+01
+step  50000 t= 50.0 <|Psi|>=889.0230 walls=0 E=-4048261808.4200 <|chi|>=3.16e+05
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed135_output.npz
+===== C seed=136 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1802 walls=129 E=34.6742 <|chi|>=3.73e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0952 walls=121 E=12.8137 <|chi|>=1.64e-02
+step  30000 t= 30.0 <|Psi|>=0.2046 walls=0 E=4.7011 <|chi|>=2.42e-02
+step  40000 t= 40.0 <|Psi|>=1.9080 walls=0 E=1.4728 <|chi|>=1.59e+00
+step  50000 t= 50.0 <|Psi|>=99.4520 walls=0 E=-657038.5949 <|chi|>=3.96e+03
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed136_output.npz
+===== C seed=137 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2113 walls=127 E=45.7936 <|chi|>=4.34e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0955 walls=122 E=16.9415 <|chi|>=1.27e-02
+step  30000 t= 30.0 <|Psi|>=0.0927 walls=50 E=6.2057 <|chi|>=1.32e-02
+step  40000 t= 40.0 <|Psi|>=0.4082 walls=0 E=2.2785 <|chi|>=1.09e-01
+step  50000 t= 50.0 <|Psi|>=9.3907 walls=0 E=-68.0052 <|chi|>=3.55e+01
+step  60000 t= 60.0 <|Psi|>=549.2032 walls=0 E=-595215718.8126 <|chi|>=1.21e+05
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed137_output.npz
+===== C seed=138 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1995 walls=125 E=42.0996 <|chi|>=3.59e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0958 walls=126 E=15.5357 <|chi|>=1.79e-02
+step  30000 t= 30.0 <|Psi|>=0.2076 walls=0 E=5.7063 <|chi|>=5.45e-02
+step  40000 t= 40.0 <|Psi|>=5.3113 walls=0 E=-0.3415 <|chi|>=1.14e+01
+step  50000 t= 50.0 <|Psi|>=327.0477 walls=0 E=-73861900.2550 <|chi|>=4.28e+04
+step  60000 t= 60.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+step  70000 t= 70.0 <|Psi|>=nan walls=255 E=nan <|chi|>=nan
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed138_output.npz
+===== C seed=139 (bound off at t0=11) =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1947 walls=127 E=40.1406 <|chi|>=3.80e-03
+--- FORK at t=11.0: sham fork (intact) ---
+step  20000 t= 20.0 <|Psi|>=0.0926 walls=123 E=14.8021 <|chi|>=1.71e-02
+step  30000 t= 30.0 <|Psi|>=0.0609 walls=114 E=5.4563 <|chi|>=1.61e-02
+step  40000 t= 40.0 <|Psi|>=0.0948 walls=2 E=2.0014 <|chi|>=1.13e-02
+step  50000 t= 50.0 <|Psi|>=0.4813 walls=0 E=0.7328 <|chi|>=1.38e-01
+step  60000 t= 60.0 <|Psi|>=12.9292 walls=0 E=-228.3443 <|chi|>=6.70e+01
+step  70000 t= 70.0 <|Psi|>=760.6414 walls=0 E=-2186551554.5379 <|chi|>=2.31e+05
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_fork11_ablate0_nobound1_seed139_output.npz
+LINK3 DONE in 405s
