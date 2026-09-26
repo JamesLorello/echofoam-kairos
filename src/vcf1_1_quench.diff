@@ -1,0 +1,20 @@
+--- vcf1_1_quench.py (pre-audit, sha256 ee8b9a72d3e7123c2f4e438cfc023563cd949a969cc78921909aac6f9a16e684)
++++ vcf1_1_quench.py (post-audit, sha256 27bd296fb7d42ad001a9b0a9520feaca33368ef7d8292024afb758f30356c61b)
+@@ -139,13 +139,14 @@
+                        f"walls={walls_hist[-1]:.0f} E={e_hist[-1]:.4f} "
+                        f"<|chi|>={np.mean(np.abs(chi)):.2e}", flush=True)
+
+-    fn = f"echofoam_quench_d{p.overcorrect_delta:g}_Dt{p.D_tau:g}_gphi{p.g_phi:g}_output.npz"
++    fn = f"echofoam_quench_d{p.overcorrect_delta:g}_Dt{p.D_tau:g}_gphi{p.g_phi:g}_lam{p.lam:g}_seed{p.seed}_output.npz"
+     np.savez(fn, t=np.array(t_hist),
+              psi=np.array(psi_hist), chi=np.array(chi_hist),
+              tau=np.array(tau_hist), phi=np.array(phi_hist),
+              walls=np.array(walls_hist), energy=np.array(e_hist),
+              t_quench=p.t_quench, m2_double=p.m2_double, D=p.D,
+-             delta=p.overcorrect_delta, D_tau=p.D_tau, g_phi=p.g_phi)
++             delta=p.overcorrect_delta, D_tau=p.D_tau, g_phi=p.g_phi,
++             lam=p.lam)
+     print(f"Saved {fn}")
+
+Note: bookkeeping only (output filename + saved scalar). No change to the
+model equations, parameters, or integration.

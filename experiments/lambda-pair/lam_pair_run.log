@@ -1,0 +1,102 @@
+===== PAIR seed=7 lam=0.0 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1820 walls=117 E=31.0469 <|chi|>=4.40e-04
+step  20000 t= 20.0 <|Psi|>=0.0880 walls=109 E=11.4638 <|chi|>=5.34e-03
+step  30000 t= 30.0 <|Psi|>=0.0747 walls=78 E=4.2086 <|chi|>=1.05e-02
+step  40000 t= 40.0 <|Psi|>=0.2916 walls=0 E=1.5478 <|chi|>=2.49e-02
+step  50000 t= 50.0 <|Psi|>=0.4097 walls=0 E=0.5672 <|chi|>=2.91e-02
+step  60000 t= 60.0 <|Psi|>=0.3288 walls=0 E=0.2079 <|chi|>=1.69e-02
+step  70000 t= 70.0 <|Psi|>=0.3790 walls=0 E=0.0756 <|chi|>=1.48e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0_seed7_output.npz
+===== PAIR seed=7 lam=0.5 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1820 walls=117 E=31.0469 <|chi|>=3.43e-03
+step  20000 t= 20.0 <|Psi|>=0.0881 walls=109 E=11.4639 <|chi|>=1.63e-02
+step  30000 t= 30.0 <|Psi|>=0.0703 walls=79 E=4.2087 <|chi|>=1.65e-02
+step  40000 t= 40.0 <|Psi|>=0.2195 walls=0 E=1.5481 <|chi|>=1.91e-02
+step  50000 t= 50.0 <|Psi|>=0.4725 walls=0 E=0.5677 <|chi|>=2.35e-02
+step  60000 t= 60.0 <|Psi|>=0.3220 walls=0 E=0.2081 <|chi|>=1.23e-02
+step  70000 t= 70.0 <|Psi|>=0.3876 walls=0 E=0.0758 <|chi|>=1.12e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_seed7_output.npz
+===== PAIR seed=8 lam=0.0 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2055 walls=128 E=44.0915 <|chi|>=4.56e-04
+step  20000 t= 20.0 <|Psi|>=0.0978 walls=120 E=16.2534 <|chi|>=7.02e-03
+step  30000 t= 30.0 <|Psi|>=0.0645 walls=100 E=5.9822 <|chi|>=1.09e-02
+step  40000 t= 40.0 <|Psi|>=0.1945 walls=0 E=2.1952 <|chi|>=2.11e-02
+step  50000 t= 50.0 <|Psi|>=0.4976 walls=0 E=0.8062 <|chi|>=2.50e-02
+step  60000 t= 60.0 <|Psi|>=0.2972 walls=0 E=0.2963 <|chi|>=1.38e-02
+step  70000 t= 70.0 <|Psi|>=0.4051 walls=0 E=0.1082 <|chi|>=1.11e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0_seed8_output.npz
+===== PAIR seed=8 lam=0.5 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2055 walls=128 E=44.0916 <|chi|>=3.63e-03
+step  20000 t= 20.0 <|Psi|>=0.0979 walls=122 E=16.2536 <|chi|>=1.29e-02
+step  30000 t= 30.0 <|Psi|>=0.0706 walls=86 E=5.9823 <|chi|>=1.19e-02
+step  40000 t= 40.0 <|Psi|>=0.2214 walls=0 E=2.1950 <|chi|>=2.18e-02
+step  50000 t= 50.0 <|Psi|>=0.4746 walls=0 E=0.8058 <|chi|>=2.61e-02
+step  60000 t= 60.0 <|Psi|>=0.3251 walls=0 E=0.2963 <|chi|>=1.29e-02
+step  70000 t= 70.0 <|Psi|>=0.3875 walls=0 E=0.1081 <|chi|>=1.13e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_seed8_output.npz
+===== PAIR seed=9 lam=0.0 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1899 walls=134 E=37.9606 <|chi|>=4.51e-04
+step  20000 t= 20.0 <|Psi|>=0.0935 walls=128 E=14.0459 <|chi|>=6.27e-03
+step  30000 t= 30.0 <|Psi|>=0.1356 walls=6 E=5.1521 <|chi|>=1.94e-02
+step  40000 t= 40.0 <|Psi|>=0.5176 walls=0 E=1.8870 <|chi|>=3.50e-02
+step  50000 t= 50.0 <|Psi|>=0.2988 walls=0 E=0.6923 <|chi|>=1.54e-02
+step  60000 t= 60.0 <|Psi|>=0.4225 walls=0 E=0.2545 <|chi|>=1.67e-02
+step  70000 t= 70.0 <|Psi|>=0.3303 walls=0 E=0.0928 <|chi|>=1.09e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0_seed9_output.npz
+===== PAIR seed=9 lam=0.5 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1899 walls=134 E=37.9607 <|chi|>=3.81e-03
+step  20000 t= 20.0 <|Psi|>=0.0934 walls=128 E=14.0460 <|chi|>=1.18e-02
+step  30000 t= 30.0 <|Psi|>=0.1431 walls=4 E=5.1521 <|chi|>=2.73e-02
+step  40000 t= 40.0 <|Psi|>=0.5577 walls=0 E=1.8872 <|chi|>=3.85e-02
+step  50000 t= 50.0 <|Psi|>=0.2490 walls=0 E=0.6926 <|chi|>=1.54e-02
+step  60000 t= 60.0 <|Psi|>=0.4427 walls=0 E=0.2544 <|chi|>=2.12e-02
+step  70000 t= 70.0 <|Psi|>=0.3116 walls=0 E=0.0928 <|chi|>=1.22e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_seed9_output.npz
+===== PAIR seed=10 lam=0.0 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1957 walls=135 E=41.4890 <|chi|>=4.48e-04
+step  20000 t= 20.0 <|Psi|>=0.0961 walls=115 E=15.3081 <|chi|>=7.65e-03
+step  30000 t= 30.0 <|Psi|>=0.1821 walls=2 E=5.6497 <|chi|>=2.68e-02
+step  40000 t= 40.0 <|Psi|>=0.5354 walls=0 E=2.0680 <|chi|>=3.26e-02
+step  50000 t= 50.0 <|Psi|>=0.3017 walls=0 E=0.7610 <|chi|>=1.74e-02
+step  60000 t= 60.0 <|Psi|>=0.4273 walls=0 E=0.2795 <|chi|>=1.66e-02
+step  70000 t= 70.0 <|Psi|>=0.3280 walls=0 E=0.1017 <|chi|>=1.11e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0_seed10_output.npz
+===== PAIR seed=10 lam=0.5 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.1957 walls=135 E=41.4890 <|chi|>=3.28e-03
+step  20000 t= 20.0 <|Psi|>=0.0964 walls=113 E=15.3082 <|chi|>=1.10e-02
+step  30000 t= 30.0 <|Psi|>=0.1693 walls=4 E=5.6499 <|chi|>=1.43e-02
+step  40000 t= 40.0 <|Psi|>=0.5116 walls=0 E=2.0677 <|chi|>=3.05e-02
+step  50000 t= 50.0 <|Psi|>=0.3310 walls=0 E=0.7608 <|chi|>=2.01e-02
+step  60000 t= 60.0 <|Psi|>=0.4087 walls=0 E=0.2793 <|chi|>=1.72e-02
+step  70000 t= 70.0 <|Psi|>=0.3420 walls=0 E=0.1017 <|chi|>=1.25e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_seed10_output.npz
+===== PAIR seed=11 lam=0.0 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2086 walls=137 E=45.7910 <|chi|>=4.02e-04
+step  20000 t= 20.0 <|Psi|>=0.0877 walls=127 E=16.9597 <|chi|>=6.89e-03
+step  30000 t= 30.0 <|Psi|>=0.0612 walls=118 E=6.2261 <|chi|>=1.01e-02
+step  40000 t= 40.0 <|Psi|>=0.1477 walls=0 E=2.2831 <|chi|>=1.77e-02
+step  50000 t= 50.0 <|Psi|>=0.5057 walls=0 E=0.8376 <|chi|>=2.84e-02
+step  60000 t= 60.0 <|Psi|>=0.2934 walls=0 E=0.3085 <|chi|>=1.70e-02
+step  70000 t= 70.0 <|Psi|>=0.4067 walls=0 E=0.1122 <|chi|>=1.45e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0_seed11_output.npz
+===== PAIR seed=11 lam=0.5 =====
+--- QUENCH at t=10.0: double well + kick ---
+step  10000 t= 10.0 <|Psi|>=0.2086 walls=137 E=45.7910 <|chi|>=3.30e-03
+step  20000 t= 20.0 <|Psi|>=0.0876 walls=129 E=16.9597 <|chi|>=9.44e-03
+step  30000 t= 30.0 <|Psi|>=0.0577 walls=126 E=6.2261 <|chi|>=1.08e-02
+step  40000 t= 40.0 <|Psi|>=0.0992 walls=2 E=2.2833 <|chi|>=1.73e-02
+step  50000 t= 50.0 <|Psi|>=0.4647 walls=0 E=0.8375 <|chi|>=3.33e-02
+step  60000 t= 60.0 <|Psi|>=0.2911 walls=0 E=0.3090 <|chi|>=8.99e-03
+step  70000 t= 70.0 <|Psi|>=0.3904 walls=0 E=0.1124 <|chi|>=1.42e-02
+Saved echofoam_quench_d0_Dt0_gphi0_lam0.5_seed11_output.npz
+LAM_PAIR_DONE
+EXIT:0
